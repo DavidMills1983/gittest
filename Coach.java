@@ -11,9 +11,7 @@ public class Coach implements CoachingBehaviour {
 
     @Override
     public String toString() {
-        return "Coach's name=" + name + '\'' +
-                ", club='" + club + '\'' +
-                '}';
+        return "Coach's name=" + name + ", club= " + club;
     }
 
     @Override
